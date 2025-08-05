@@ -9,9 +9,9 @@
 
 /* ─── Variables de color ──────────────────────────────────────────── */
 :root {
-  --dark-teal: #04394E;
-  --emerald:    #00875E;
-  --lime:       #A7CC15;
+   --dark-teal: #003366; /* azul profundo para fondos */
+  --emerald:    #39FF14; /* verde neón principal */
+  --lime:       #39FF14; /* acento verde neón */
   --gold:       #F5CC17;
   --gray-light: #f4f4f4;
   --text-dark:  #333333;
@@ -69,6 +69,17 @@ nav a.active {
   color: #fff;
   text-align: center;
   padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
 }
 .hero-content h1 {
   font-size: 3rem;
@@ -77,6 +88,10 @@ nav a.active {
 .hero-content p {
   font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 .btn {
   display: inline-block;
