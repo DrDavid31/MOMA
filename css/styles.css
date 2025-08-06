@@ -234,8 +234,8 @@ ul {
 }
 
 /* ====== Ajustes página Empresa ====== */
-.empresa-page main p,
-.empresa-page main ul {
+.nosotros-page main p,
+.nosotros-page main ul {
   margin-bottom: 1.5rem;
 }
 
@@ -431,7 +431,7 @@ footer {
   font-weight: bold;
 }
 
-.empresa-icon {
+.Nosotros-icon {
   width: 60px;
   height: 60px;
   vertical-align: middle;
